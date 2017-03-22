@@ -1,0 +1,196 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background:#FFFFFF;
+	margin:0;
+	}
+#home, #photo , #brands , #commodity , #contact{
+	background:#FFFFFF;
+	width:100%;
+	height:1000px;
+	}
+.navbar-default{
+	line-height: 150px;
+	text-align:center;
+	}	
+.navbar-default ul{
+	margin-right: 100px;
+	margin-top: 100px;
+	}	
+#home {
+	background:url(../images/homebg.jpg) 100% center no-repeat fixed;
+	background-size:cover;
+	max-width:100%
+	}
+
+/*********photo區*********/	
+
+#photo{
+	height: 100%;
+	}
+	
+.gallery{
+	background:#FFF;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+
+	}	
+.gallery-one .p-box{
+	margin-top: 30px;
+	line-height: 50px;
+	letter-spacing: 0.2em;
+	/*border:#DBD8D8 1px dashed;
+	padding: 5px 5px 5px 5px;*/
+	}
+.gallery-two{
+	margin-top: 60px;
+	}		
+.gallery-two .img-box{
+	max-width:100%;
+	height:auto;
+	margin-top: 40px;
+	}
+#taoju-img .content img{
+	margin-bottom: 20px;
+	}	
+
+/*********brands區*********/	
+
+#brands {
+	background:url(../images/brands1_01.jpg) no-repeat fixed;
+	}
+
+#brands h5{
+	margin-top: 30px;
+	line-height: 50px;
+	letter-spacing: 0.2em;
+
+	}	
+#brands .main-two{
+	background: #FFF;
+	margin-top: 20%;
+	-webkit-box-shadow: 2px 3px 10px;
+	box-shadow: 2px 3px 10px;	
+	}	
+.main-two-left{
+	-webkit-writing-mode: vertical-lr;
+	writing-mode: vertical-lr;
+	}
+.main-two-left-img{
+	position:absolute;
+	top: 70%;
+	right: 69%;
+	}
+.main-two-right h5{
+	padding-bottom: 30px;
+	}
+			
+/*********品牌合作區*********/
+
+#commodity{
+	background:url(../images/commodity-bg.jpg) no-repeat;
+}
+
+
+.card-zone {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0;
+  -webkit-transition:all 0.45s ease-in-out;
+		-moz-transition:all 0.45s ease-in-out;
+		-o-transition:all 0.45s ease-in-out;
+		-ms-transition:all 0.45s ease-in-out;
+		transition:all 0.45s ease-in-out; 
+}
+
+.card-zone:hover .overlay {
+  opacity: 1;
+}
+	
+.caption-text{
+	line-height: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	}
+	
+
+/*********contact區*********/
+
+#contact{
+	height:800px;
+	}	
+#contact .contact-main {
+	background:#9F9F9F;
+	}
+
+#contact .contact-me{
+	background:url(../images/contact-me-bg_02.jpg);
+	background-position: left;
+	height: 300px;
+	margin-bottom: 20px;
+	}
+#contact .contact-me-p{
+	font-size: 2em;
+	letter-spacing: 0.3em;
+	font-weight: 800;
+	color:#FFF;
+	padding-top: 60px;
+	padding-left: 40px;
+	
+	}			
+#contact .contact-form .google-map{	
+	padding-top: 20px;
+	
+	}
+#contact .form-control{
+	margin-bottom: 10px;
+	font-size: 18px;
+	border: 1px solid #eee;
+	transition: all 0.4s ease-in-out;
+	}
+#contact textarea{ 
+	min-height:100px;
+	}
+#contact input{
+	height: 50px;
+	}
+#contact input[type='submit']{
+	background: #222121;
+	color: #FFF;
+	transition: all 0.4s ease-in-out;
+	margin-top: 10px;
+	}
+#contact input[type='submit']:hover{
+	color:#9B9999;
+	}	
+.contact-submit{
+	width:50%;
+	}	
+	
+
+	
+/*********footer區*********/	
+footer{
+	background: #222121;
+	height: 100px;
+	text-align:center;
+	padding-top: 50px;
+	}
+footer p{
+	color:#E5E5E5;
+	}		
+	
+	
+	
+	
+	
+	
+	
+							
