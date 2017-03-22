@@ -88,6 +88,7 @@ body{
 
 #commodity{
 	background:url(../images/commodity-bg.jpg) no-repeat;
+	height: 100%;
 }
 
 
@@ -124,7 +125,7 @@ body{
 /*********contact區*********/
 
 #contact{
-	height:800px;
+	height:100%;
 	}	
 #contact .contact-main {
 	background:#9F9F9F;
